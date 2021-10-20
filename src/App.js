@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Addtransacao from './Components/Addtransacao';
+import Button from './Components/Button';
 import Header from './Components/Header';
 import Saldo from './Components/Saldo';
 import Transacao from './Components/Transacao';
@@ -20,6 +22,8 @@ function App() {
       <Header />
       <Saldo />
       <Transacao />
+      <Addtransacao />
+      <Button />
     </Container>
   );
 }
