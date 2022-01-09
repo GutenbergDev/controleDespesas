@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import Transacao from './Transacao';
+import { GlobalContext } from './GlobalContext';
 
 const Div = styled.div`
   display: flex;
@@ -66,10 +68,12 @@ const SpanDespesa2 = styled.span`
 
 
 function Saldo() {
+  const global = React.useContext(GlobalContext)
+
   return (
     <Div>
       <Title2>SALDO ATUAL</Title2>
-      <SpanSaldo>R$ 4000.00</SpanSaldo>
+      <SpanSaldo>R$ {global.saldo}</SpanSaldo>
       <DivReceita>
         <Div1>
           <SpanReceita>RECEITAS</SpanReceita>

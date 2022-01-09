@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Addtransacao from './Components/Addtransacao';
-import Button from './Components/Button';
 import Header from './Components/Header';
 import Saldo from './Components/Saldo';
 import Transacao from './Components/Transacao';
+import {GlobalStorage} from './Components/GlobalContext';
 
 const Container = styled.div`
   display: flex;
@@ -12,19 +12,17 @@ const Container = styled.div`
   justify-content: center;
   height: 100vh;
   align-items: center;
-  font-family: 'Lato', sans-serif;
   margin: 0;
 `;
 
 function App() {
   return (
-    <Container>
+    <GlobalStorage>
       <Header />
       <Saldo />
       <Transacao />
       <Addtransacao />
-      <Button />
-    </Container>
+    </GlobalStorage>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { GlobalContext } from './GlobalContext';
 
 const Div = styled.div`
   display: flex;
@@ -38,20 +39,59 @@ const Input = styled.input`
   padding-left: 10px;
 `;
 
+const DivB = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 2rem;
+`;
+
+const Botao = styled.button`
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #BA81F2;
+  border: 0px;
+  color: #fff;
+  letter-spacing: 1px;
+`;
+
 function Addtransacao() {
+    const global = React.useContext(GlobalContext);
+
+  function handleSubmit(ev) {
+    ev.preventDefault()
+    global.setSaldo(global.saldo)
+  }
+
   return (
     <Div>
       <SpanTransacoes>ADICIONAR TRANSAÇÃO</SpanTransacoes>
       <Divhr></Divhr>
 
-      <DivForm>
-        <label>Nome</label>
-        <Input placeholder="Nome da transação" type="text" />
+      <form onSubmit={handleSubmit}>
+        <label>Nomee</label>
+        <Input 
+          placeholder="Nome da transação" 
+          type="text"
+
+        />
 
         <label style={{ marginTop: '2rem' }}>Valor</label>
         <p style={{ margin: '0px', fontSize: '.9rem' }}>(negativo - despesas, positivo - receitas)</p>
-        <Input placeholder="Valor da transação" type="text" />
-      </DivForm>
+        <Input 
+          placeholder="Valor da transação" 
+          type="number" 
+          value={global.saldo}
+          onChange={e=>global.setSaldo(e.target.value)}
+        />
+        <DivB>
+          <Botao>Adicionar</Botao>
+        </DivB>
+        
+      </form>
     </Div>
   )
 }
