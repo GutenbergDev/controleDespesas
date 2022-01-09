@@ -76,7 +76,6 @@ function Addtransacao() {
         <Input 
           placeholder="Nome da transação" 
           type="text"
-
         />
 
         <label style={{ marginTop: '2rem' }}>Valor</label>
