@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Transacao from './Transacao';
 import { GlobalContext } from './GlobalContext';
 
 const Div = styled.div`

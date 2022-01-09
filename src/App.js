@@ -6,14 +6,6 @@ import Saldo from './Components/Saldo';
 import Transacao from './Components/Transacao';
 import {GlobalStorage} from './Components/GlobalContext';
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-  margin: 0;
-`;
 
 function App() {
   return (

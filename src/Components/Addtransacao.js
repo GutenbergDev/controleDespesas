@@ -21,13 +21,6 @@ const Divhr = styled.div`
   margin-top: 10px;
 `;
 
-const DivForm = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  margin-top: 2rem;
-`;
-
 const Input = styled.input`
   width: 100%;
   height: 30px;
