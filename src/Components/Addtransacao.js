@@ -68,7 +68,7 @@ function Addtransacao() {
 
   return (
     <Div>
-      <SpanTransacoes>ADICIONAR TRANSAÇÃO</SpanTransacoes>
+      <SpanTransacoes>ADICIONAR TRANSAÇÃOo</SpanTransacoes>
       <Divhr></Divhr>
 
       <form onSubmit={handleSubmit}>
