@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Addtransacao from './Components/Addtransacao';
 import Header from './Components/Header';
 import Saldo from './Components/Saldo';
