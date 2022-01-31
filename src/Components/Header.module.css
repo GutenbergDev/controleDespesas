@@ -1,0 +1,12 @@
+
+.container {
+  width: 400px;
+  height: 60px;
+  margin: auto;
+}
+
+.header h1 {
+  margin: 0px;
+  color: #232426;
+  text-align: center;
+}

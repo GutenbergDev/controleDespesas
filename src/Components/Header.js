@@ -1,22 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Head = styled.div`
-  width: 400px;
-  height: 60px;
-`;
-
-const Title = styled.h1`
-  margin: 0px;
-  color: #232426;
-  text-align: center;
-`;
+import styles from './Header.module.css';
 
 function Header() {
   return (
-    <Head>
-      <Title>Controle de Despesas</Title>
-    </Head>
+    <div className={styles.container}>
+      <h1>Controle de Despesas</h1>
+    </div>
   )
 }
 
