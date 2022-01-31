@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/controleDespesas/static/css/main.f52b8264.chunk.css",
-    "main.js": "/controleDespesas/static/js/main.2991eafa.chunk.js",
-    "main.js.map": "/controleDespesas/static/js/main.2991eafa.chunk.js.map",
+    "main.css": "/controleDespesas/static/css/main.3ff552c7.chunk.css",
+    "main.js": "/controleDespesas/static/js/main.55bfb29d.chunk.js",
+    "main.js.map": "/controleDespesas/static/js/main.55bfb29d.chunk.js.map",
     "runtime-main.js": "/controleDespesas/static/js/runtime-main.c249b793.js",
     "runtime-main.js.map": "/controleDespesas/static/js/runtime-main.c249b793.js.map",
-    "static/js/2.eca2b2bf.chunk.js": "/controleDespesas/static/js/2.eca2b2bf.chunk.js",
-    "static/js/2.eca2b2bf.chunk.js.map": "/controleDespesas/static/js/2.eca2b2bf.chunk.js.map",
+    "static/js/2.ab22af0b.chunk.js": "/controleDespesas/static/js/2.ab22af0b.chunk.js",
+    "static/js/2.ab22af0b.chunk.js.map": "/controleDespesas/static/js/2.ab22af0b.chunk.js.map",
     "index.html": "/controleDespesas/index.html",
-    "static/css/main.f52b8264.chunk.css.map": "/controleDespesas/static/css/main.f52b8264.chunk.css.map",
-    "static/js/2.eca2b2bf.chunk.js.LICENSE.txt": "/controleDespesas/static/js/2.eca2b2bf.chunk.js.LICENSE.txt"
+    "static/css/main.3ff552c7.chunk.css.map": "/controleDespesas/static/css/main.3ff552c7.chunk.css.map",
+    "static/js/2.ab22af0b.chunk.js.LICENSE.txt": "/controleDespesas/static/js/2.ab22af0b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c249b793.js",
-    "static/js/2.eca2b2bf.chunk.js",
-    "static/css/main.f52b8264.chunk.css",
-    "static/js/main.2991eafa.chunk.js"
+    "static/js/2.ab22af0b.chunk.js",
+    "static/css/main.3ff552c7.chunk.css",
+    "static/js/main.55bfb29d.chunk.js"
   ]
 }
